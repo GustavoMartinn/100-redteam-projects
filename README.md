@@ -2,32 +2,9 @@
     <img src="/images/red.png">
 </p>
                                                                        
-# 100  Red Team Projects for Pentesters and Network Managers
+# 100  Red Team Projects for Pentesters and Network Managers by kurogai
 
-Red Teaming is one of the most attractive fields in offensive security or ethical hacking.
-Every day professionals and students are learning, creating and exploiting all types of
-systems. The internet is not only the most common means through which people interact
-and chat, but also a place where they are constantly exposed to a world where anyone can be monitored,
-exploited, tracked or scammed.
-
-This is why us, programmers, take action; several of us continually try to protect this
-wonderful place while others, out of immaturity or shrewd interests, act in just the opposite direction.
-If you're interested in this field and want to join it, no matter your current level of knowledge, learning
-how to create your own tools will result in great advantage as a pentester.
-
-So I put some thought into it and got the idea to create this project list aimed at anyone who is interested
-in learning "how to" not become the ultimate script kiddie. Here I discriminate (based solely on my own experience)
-almost 100 types of projects that you should at least try to either implement or study.
-
-I recommend you to do them on the programming language you are most comfortable with. Implementing these
-projects will definitely help you gain more experience and, consequently, master the language. They are divided
-in categories, ranging from super basic to advanced projects.
-
-If you enjoy this list please take the time to recommend it to a friend and follow me! I will be happy with that :)
-
-And remember: With great power comes... (we already know).
-
-Parent Project: https://github.com/kurogai/100-mitre-attack-projects
+Parent Project: https://github.com/kurogai/100-redteam-projects
 
 ---
 
@@ -159,26 +136,3 @@ Parent Project: https://github.com/kurogai/100-mitre-attack-projects
 | [100]   | Your own metasploit module                                                          | :x:     |
 
 ---
-
-## Honorable Mentions:
-
-- Kernel Mode rootkit: [reveng_rtkit](https://github.com/reveng007/reveng_rtkit) by [@reveng007](https://twitter.com/reveng007)
-
-## Adding Your Examples:
-
-You can make a pull request for the "Projects" directory and name the file in
-compliance with the following convention:
-
-```
-[ID] PROJECT_NAME - <LANGUAGE> | AUTHOR
-```
-
-#### Example:
-
-```
-[91] Web Exploitation Framework - <C> | EONRaider
-```
-
-### Want to support my work?
-
-[<a href="https://www.buymeacoffee.com/heberjuliok" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>](https://www.buymeacoffee.com/heberjuliok)
