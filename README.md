@@ -14,7 +14,7 @@ Parent Project: https://github.com/kurogai/100-redteam-projects
 | ------- | --------------------------------------------------------------------- | ------------------ |
 | [0]     | <a href="./projects/0">TCP or UDP server just to receive messages</a> | :heavy_check_mark: |
 | [1]     | <a href="./projects/1">TCP chat server</a>                            | :heavy_check_mark: |
-| [2]     | UDP chat server                                                       | :x:                |
+| [2]     | <a href="./projects/2">UDP chat server</a>                            | :x:                |
 | [3]     | <a href="./projects/3">Multi-threaded UDP or TCP chat server</a>      | :heavy_check_mark: |
 | [4]     | Server for file transfers                                             | :x:                |
 | [5]     | Caesar Cipher tool                                                    | :x:                |
