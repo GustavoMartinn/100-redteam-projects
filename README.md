@@ -10,19 +10,19 @@ Parent Project: https://github.com/kurogai/100-redteam-projects
 
 <!-- :heavy_check_mark: -->
 
-| Level 1 | Basic                                                                 | Example            |
-| ------- | --------------------------------------------------------------------- | ------------------ |
-| [0]     | <a href="./projects/0">TCP or UDP server just to receive messages</a> | :heavy_check_mark: |
-| [1]     | <a href="./projects/1">TCP chat server</a>                            | :heavy_check_mark: |
-| [2]     | <a href="./projects/2">UDP chat server</a>                            | :heavy_check_mark: |
-| [3]     | <a href="./projects/3">Multi-threaded UDP or TCP chat server</a>      | :heavy_check_mark: |
-| [4]     | <a href="./projects/4">Server for file transfers</a>                  | :heavy_check_mark: |
-| [5]     | <a href="./projects/5">Caesar Cipher tool</a>                         | :heavy_check_mark: |
-| [6]     | TCP chat server -> The messages should be encoded with Caesar Cipher  | :x:                |
-| [7]     | <a href="./projects/7">ROT13 Cipher</a>                               | :heavy_check_mark: |
-| [8]     | UDP Chat server -> The messages should be encoded with ROT13 Cipher   | :x:                |
-| [9]     | Remote command execution                                              | :x:                |
-| [10]    | Recreate the Netcat tool                                              | :x:                |
+| Level 1 | Basic                                                                                           | Example            |
+| ------- | ----------------------------------------------------------------------------------------------- | ------------------ |
+| [0]     | <a href="./projects/0">TCP or UDP server just to receive messages</a>                           | :heavy_check_mark: |
+| [1]     | <a href="./projects/1">TCP chat server</a>                                                      | :heavy_check_mark: |
+| [2]     | <a href="./projects/2">UDP chat server</a>                                                      | :heavy_check_mark: |
+| [3]     | <a href="./projects/3">Multi-threaded UDP or TCP chat server</a>                                | :heavy_check_mark: |
+| [4]     | <a href="./projects/4">Server for file transfers</a>                                            | :heavy_check_mark: |
+| [5]     | <a href="./projects/5">Caesar Cipher tool</a>                                                   | :heavy_check_mark: |
+| [6]     | <a href="./projects/6">TCP chat server -> The messages should be encoded with Caesar Cipher</a> | :heavy_check_mark: |
+| [7]     | <a href="./projects/7">ROT13 Cipher</a>                                                         | :heavy_check_mark: |
+| [8]     | <a href="./projects/8">UDP Chat server -> The messages should be encoded with ROT13 Cipher</a>  | :heavy_check_mark: |
+| [9]     | Remote command execution                                                                        | :x:                |
+| [10]    | Recreate the Netcat tool                                                                        | :x:                |
 
 ---
 
