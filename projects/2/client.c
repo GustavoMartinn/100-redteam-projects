@@ -8,6 +8,8 @@
 #define BUFFER_SIZE 1024
 
 char nickname[BUFFER_SIZE];
+char* host;
+int port;
 
 void* receive(void* arg) {
   int client_socket = *((int*)arg);
@@ -43,8 +45,8 @@ void* write_to_server(void* arg) {
     struct sockaddr_in server_addr;
     memset(&server_addr, 0, sizeof(server_addr));
     server_addr.sin_family = AF_INET;
-    server_addr.sin_port = htons(12345);  // Use the appropriate server port
-    inet_pton(AF_INET, "127.0.0.1", &server_addr.sin_addr);  // Use the server's IP address
+    server_addr.sin_port = htons(port); 
+    inet_pton(AF_INET, host, &server_addr.sin_addr);
 
     sendto(client_socket, formatted_message, strlen(formatted_message), 0,
       (struct sockaddr*)&server_addr, sizeof(server_addr));
@@ -57,8 +59,8 @@ int main(int argc, char* argv[]) {
     exit(EXIT_FAILURE);
   }
 
-  char* host = argv[1];
-  int port = atoi(argv[2]);
+  host = argv[1];
+  port = atoi(argv[2]);
 
   int client_socket;
   struct sockaddr_in server_addr;
